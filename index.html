@@ -7,9 +7,11 @@
 <link rel="icon" href="./favicon.ico"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"/>
 <link rel="stylesheet" href="css/template.css">
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js" defer></script>
 <script src="js/template.js" defer></script>    <title>Potrtfolio</title>
 </head>
 <body>
@@ -32,9 +34,12 @@
             <section class="content__tab about active" data-tab="about">
                 <div class="content__tab_inner">
                     <div class="index__person">
-                        <div class="index__img">
+                        <!-- <div class="index__img">
                             <img src="assets/images/avatar.jpg" alt="моё фото">
-                        </div>
+                        </div> -->
+                        <a href="assets/images/avatar.jpg" class="index__img" data-fancybox="gallery" data-caption="">
+                            <img src="assets/images/avatar.jpg" />
+                        </a>
                         <ul class="index__main">
                             <li>
                                 <p>Имя</p>
@@ -83,30 +88,30 @@
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me0.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me1.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me2.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me3.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me4.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me6.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me7.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/me8.jpg" alt="">
-                                </div>
+                                <a href="assets/images/me0.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me0.jpg" />
+                                </a>
+                                <a href="assets/images/me1.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me1.jpg" />
+                                </a>
+                                <a href="assets/images/me2.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me2.jpg" />
+                                </a>
+                                <a href="assets/images/me3.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me3.jpg" />
+                                </a>
+                                <a href="assets/images/me4.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me4.jpg" />
+                                </a>
+                                <a href="assets/images/me6.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me6.jpg" />
+                                </a>
+                                <a href="assets/images/me7.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me7.jpg" />
+                                </a>
+                                <a href="assets/images/me8.jpg" class="swiper-slide" data-fancybox="gallery" data-caption="">
+                                    <img src="assets/images/me8.jpg" />
+                                </a>
                             </div>
     
                             <!-- If we need navigation buttons -->
